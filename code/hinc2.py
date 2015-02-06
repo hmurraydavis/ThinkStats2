@@ -55,6 +55,7 @@ def main():
     thinkplot.Cdf(log_cdf)
     thinkplot.Show(xlabel='household income',
                    ylabel='CDF')
+    return log_sample
 
 
 if __name__ == "__main__":
